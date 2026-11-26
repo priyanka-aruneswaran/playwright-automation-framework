@@ -75,7 +75,7 @@ New features follow the same pattern: add a page object in `pages/`, API mocks i
 ## Tools and AI used
 
 - **Stack:** Node.js, TypeScript, Playwright Test, GitHub Actions.
-- **GitHub Copilot (AI-assisted):** The `Messaging Test Agent` custom agent (`.github/agents/messaging-test.agent.md`) uses the Playwright MCP server (`.vscode/mcp.json`) to inspect the local app and help write tests. To use it, run the setup steps, open the workspace in VS Code with the Copilot session target, select **Messaging Test Agent**, and approve the MCP server and tool requests when prompted. VS Code forwards eligible workspace MCP configurations to Copilot; use **MCP: List Servers** to start the server if needed. All AI-generated changes were reviewed and verified by running the typecheck and tests.
+- **GitHub Copilot (AI-assisted):** The `Messaging Test Agent` custom agent (`.github/agents/messaging-test.agent.md`) uses the Playwright MCP server (`.vscode/mcp.json`) to inspect the local app and help write tests. To use it, run the setup steps, open the workspace in VS Code with the Copilot session target, select **Messaging Test Agent**, and approve the MCP server and tool requests when prompted.
 
 ## Decisions and reasoning
 
